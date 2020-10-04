@@ -260,9 +260,14 @@ footer {
   position: relative;
 }
 
-.project-item img:hover {
+.project-item:hover a.btn {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  opacity: 0.8;
+}
+
+.project-item:hover img {
+  opacity: 0.8;
 }
 
 /* .projects .project-item::before {
@@ -293,11 +298,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  visibility: hidden;
-}
-
-.project-item .btn:hover {
-  opacity: 0.8;
+  display: none;
 }
 
 footer {
