@@ -24,8 +24,13 @@ h1 {
   font-size: 2rem;
 }
 
+hr {
+  margin: 0 25%;
+  /* border-bottom: 0.3rem solid #333; */
+}
+
 p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .navbar {
@@ -144,7 +149,7 @@ footer {
 }
 
 #about {
-  height: 50vh;
+  height: 70vh;
   text-align: center;
   padding: 20px 15%;
 }
@@ -206,7 +211,7 @@ footer {
   align-items: center;
   justify-content: center;
   color: var(--dark-color);
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .socials a {
@@ -307,6 +312,7 @@ footer {
   justify-content: center;
   text-align: center;
   height: 50px;
+  font-size: 0.9rem;
   /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
@@ -321,6 +327,12 @@ footer {
   .projects {
     grid-template-columns: repeat(2, auto);
     width: 100%;
+  }
+
+  .project-item a.btn {
+    cursor: pointer;
+    display: block;
+    opacity: 0.8;
   }
 
   #stack {
@@ -359,6 +371,12 @@ footer {
   .projects {
     grid-template-columns: repeat(1, auto);
     width: 100%;
+  }
+
+  .project-item a.btn {
+    cursor: pointer;
+    display: block;
+    opacity: 0.8;
   }
 
   .content a.btn {
