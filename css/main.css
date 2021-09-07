@@ -42,7 +42,7 @@ p {
   z-index: 11;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   opacity: 0.9;
   transition: 0.5s;
   padding-right: 1rem;
@@ -242,15 +242,15 @@ footer {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(4, auto);
   align-items: center;
   justify-content: center;
 }
 
 .projects .project-item {
   background-color: var(--light-color);
-  width: 350px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   margin: 1rem;
   border-radius: 20px;
   border: 1px solid #c5c5c5;
